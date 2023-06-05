@@ -19,16 +19,16 @@ const router = createBrowserRouter([
     element: <Animals/>,
   },
   {
-   path: "/cart",
-   element: <Cart />,
-  },
-  {
     path: "/login",
     element: <Login/>,
   },
   {
     path: "/signup",
     element: <Signup />,
+  },
+  {
+   path: "/cart",
+   element: <Cart />,
   },
 
 ])

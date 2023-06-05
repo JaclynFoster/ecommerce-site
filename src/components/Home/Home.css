@@ -1,47 +1,72 @@
-.email-container {
+
+
+body {
+  background-color: whitesmoke;
+}
+
+.links {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  width: 500px;
-  margin-top: -150px;
-
-
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 15px;
 }
-.email-title {
-  font-size: 30px;
-  font-weight: bold;
-  font-family: fantasy;
+.link-section {
+  background-color: rgb(215, 211, 211);
 }
 
-label {
+p {
   font-size: 20px;
   font-family: fantasy;
 }
-.email-parent {
+.about {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.deal-image {
+  height: 200px;
+  width: 200px;
+  border: 3px solid rgb(223, 187, 95);
+  box-shadow: 3px 3px 3px gold;
+
+}
+
+.deal-section {
   display: flex;
   flex-direction: row;
-  width: 470px;
-  justify-content: space-around;
-  margin-top: -20px;
-  margin-left: 40px;
-
+  justify-content: space-evenly;
+  background-color: rgb(133, 53, 53);
 }
 
-.checkbox {
- height: 20px;
- width: 20px;
+.deal-div {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  border: 3px solid black;
+  padding: 10px;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+
+}
+.buy-btn {
+  border-radius: 30px;
+  height: 30px;
+  width: 150px;
+  background-color: rgb(223, 187, 95);
+  font-size: 20px;
+  color: rgb(133, 53, 53);
+}
+.title {
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: fantasy;
+  background-color: gold;
+  color: rgb(133, 53, 53);
+  padding-top: 10px;
 }
 
-.email-input {
-  width: 200px;
-  border-radius: 20px;
-}
-
-.email-btn {
-  height: 40px;
-  width: 100px;
-  border-radius: 20px;
-  margin-top: 20px;
-  margin-left: 40px;
+.link-title {
+  color: rgb(133, 53, 53);
 }

@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    padding-right: 20px;
 }
 
 .link {
@@ -25,9 +25,12 @@
 }
 
 .logo {
-    height: 300px;
+    height: 250px;
     width: 300px;
-    margin-left: 60px;
+    margin-left: 70px;
+    border-radius: 15px;
+    border: 3px double darkgray;
+    box-shadow: 5px 5px 5px 5px darkgrey;
 }
 h1 {
     color: rgb(145, 149, 156);
@@ -36,3 +39,50 @@ h1 {
     padding-left: 10px;
     margin-left: 20px;
 }
+
+  .email-title {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: fantasy;
+    margin-bottom: -15px;
+    
+  }
+  
+  label {
+    font-size: 20px;
+    font-family: fantasy;
+  }
+  .email-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    float: left;
+    margin-top: -14%;
+    margin-left: 10%;
+    padding: 10px;
+  }
+  
+  .checkbox {
+   height: 20px;
+   width: 20px;
+  }
+  
+  .email-input {
+    width: 200px;
+    border-radius: 20px;
+  }
+  
+  .email-btn {
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+  
+  }
+
+  .footer {
+   background-color: rgba(234, 234, 248, 0.885);  
+   height: 150px;
+    bottom: 0;
+  
+    }
