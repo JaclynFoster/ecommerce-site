@@ -1,8 +1,6 @@
 import React from 'react'
-import Layout from '../Layout/Layout'
-import CartColumns from './CartColumns'
-import CartItems from './CartItems'
-import CartTotal from './CartTotal'
+import Layout from '../components/Layout/Layout'
+
 
 const CartPage = () => {
     return (

@@ -11,8 +11,9 @@ import Stars from './Animals/Stars'
 import CartContent from './Cart/CartContent'
 import PageHero from './Layout/PageHero'
 import StripeCheckout from './Checkout/StripeCheckout'
+import FeaturedAnimals from './Animals/FeaturedAnimals'
 export {
-  FeaturedProducts,
+ FeaturedAnimals,
   Navbar,
   CartButtons,
   Footer,

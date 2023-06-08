@@ -1,6 +1,6 @@
 import React from 'react'
-import Layout from '../Layout/Layout'
-import '../Login/Login.css'
+import Layout from '../components/Layout/Layout'
+import '../components/Login/Login.css'
 
 const Login = () => {
     return (

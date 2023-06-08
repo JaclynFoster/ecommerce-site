@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Home from './components/Home/Home';
-import Animals from './components/Animals/Animals';
-import Cart from './components/Cart/CartContent';
-import Login from './components/Login/Login';
-import Signup from './components/Signup/Signup';
+import Home from './routes/Home'
+import Animals from './routes/Animals';
+import Login from './routes/Login';
+import Signup from './routes/Signup';
+import CartPage from './routes/CartPage'
+import CheckoutPage from './routes/CheckoutPage'
+import ErrorPage from './routes/CheckoutPage'
+import PrivateRoute from './routes/PrivateRoute';
+import SingleProductPage from './routes/SingleProductPage';
+
 // import { ProductsProvider } from './context/products_context';
 // import { FilterProvider } from './context/filter_context';
 // import { CartProvider } from './context/cart_context';
@@ -32,8 +37,24 @@ const router = createBrowserRouter([
   },
   {
    path: "/cart",
-   element: <Cart />,
+   element: <CartPage />,
   },
+  {
+    path: "/checkout",
+    element: <CheckoutPage />
+  },
+  {
+    path: "/error",
+    element: <ErrorPage />
+  },
+  {
+    path: "/singleProduct",
+    element: <SingleProductPage />
+  },
+  {
+    path: "/privateRoute",
+    element: <PrivateRoute />
+  }
 
 ])
 

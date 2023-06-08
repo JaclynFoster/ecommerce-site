@@ -1,6 +1,5 @@
 import React from 'react'
-import Layout from '../Layout/Layout'
-import '../Animals/Animals.css'
+import Layout from '../components/Layout/Layout'
 
 const Animals = () => {
     return(

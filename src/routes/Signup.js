@@ -1,6 +1,6 @@
 import React from 'react'
-import Layout from '../Layout/Layout'
-import "../Signup/Signup.css"
+import Layout from '../components/Layout/Layout'
+import '../components/Signup/Signup.css'
 
 
 
